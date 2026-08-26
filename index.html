@@ -1,235 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Suchi Goel | Software Developer</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Suchi Goel - Computer Science Engineering Student, Software Developer, AI/ML Enthusiast and Data Analyst.">
+
+    <meta name="keywords"
+        content="Suchi Goel, Portfolio, Software Developer, AI ML, Data Analyst, CSE, Developer">
+
+    <meta name="author" content="Suchi Goel">
+
+    <title>Suchi Goel | Developer Portfolio</title>
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-    <!-- Devicon -->
-    <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-
+    <!-- Main CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
 
-<!-- ================= NAVBAR ================= -->
+    <!-- =====================================================
+         SCROLL PROGRESS
+    ====================================================== -->
 
-<header class="navbar">
-    <div class="nav-container">
-
-        <a href="#home" class="logo">
-            Portfolio<span>.</span>
-        </a>
-
-        <nav class="nav-menu" id="navMenu">
-            <a href="#home" class="nav-link active">Home</a>
-            <a href="#about" class="nav-link">About</a>
-            <a href="#skills" class="nav-link">Skills</a>
-            <a href="#experience" class="nav-link">Experience</a>
-            <a href="#projects" class="nav-link">Projects</a>
-            <a href="#achievements" class="nav-link">Achievements</a>
-            <a href="#blogs" class="nav-link">Blogs</a>
-            <a href="#contact" class="nav-link">Contact</a>
-        </nav>
-
-        <button class="menu-btn" id="menuBtn">
-            <i class="fa-solid fa-bars"></i>
-        </button>
-
-    </div>
-</header>
+    <div class="scroll-progress"></div>
 
 
-<!-- ================= HERO ================= -->
+    <!-- =====================================================
+         CURSOR GLOW
+    ====================================================== -->
 
-<section class="hero" id="home">
+    <div class="cursor-glow"></div>
 
-    <div class="hero-container">
 
-        <div class="hero-content">
+    <!-- =====================================================
+         NAVBAR
+    ====================================================== -->
 
-            <p class="small-heading">
-                <span></span> HELLO, I'M
-            </p>
+    <header class="navbar">
 
-            <h1>
-                Suchi <span>Goel</span>
-            </h1>
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                Porfolio<span>.</span>
+            </a>
+
+
+            <button class="menu-toggle"
+                aria-label="Open navigation menu">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#home" class="active">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#about">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#skills">
+                        Skills
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#experience">
+                        Experience
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#projects">
+                        Projects
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#certifications">
+                        Certifications
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#achievements">
+                        Achievements
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         HERO SECTION
+    ====================================================== -->
+
+    <section id="home">
+
+        <div class="hero-container">
+
+            <div class="hero-content reveal">
+
+                <p class="hero-small-text">
+                    Hello, I'm
+                </p>
+
+                <h1>
+                    Suchi
+                    <span>Goel</span>
+                </h1>
+
+                <h2>
+                    <span class="typing-text">
+                        Software Developer
+                    </span>
+                </h2>
+
+
+                <div class="hero-buttons">
+
+                    <a href="#projects"
+                        class="btn">
+
+                        <i class="fa-solid fa-code"></i>
+
+                        View Projects
+
+                    </a>
+
+
+                    <a href="#contact"
+                        class="btn btn-outline">
+
+                        <i class="fa-solid fa-paper-plane"></i>
+
+                        Contact Me
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PROFILE IMAGE -->
+
+            <div class="hero-image reveal">
+
+                <div class="hero-image-glow"></div>
+
+                <div class="hero-image-ring">
+
+                    <img
+                        src="suchi.jpeg"
+                        alt="Suchi Goel"
+                        loading="eager">
+
+                </div>
+
+
+                <!-- Floating badges -->
+
+                <div class="floating-badge badge-one">
+
+                    <i class="fa-solid fa-code"></i>
+
+                    <span>Developer</span>
+
+                </div>
+
+
+                <div class="floating-badge badge-two">
+
+                    <i class="fa-solid fa-brain"></i>
+
+                    <span>AI / ML</span>
+
+                </div>
+
+
+                <div class="floating-badge badge-three">
+
+                    <i class="fa-solid fa-chart-line"></i>
+
+                    <span>Data</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Decorative background -->
+
+        <div class="hero-orb orb-one"></div>
+        <div class="hero-orb orb-two"></div>
+        <div class="hero-orb orb-three"></div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         ABOUT
+    ====================================================== -->
+
+    <section id="about">
+
+        <div class="about-card reveal">
 
             <h2>
-                <span id="typingText"></span>
+                About <span>Me</span>
             </h2>
 
-            <p class="hero-description">
-                Computer Science student passionate about building
-                innovative web applications, solving challenging
-                problems and exploring Artificial Intelligence.
-            </p>
 
-            <div class="hero-buttons">
-
-                <a href="#projects" class="btn primary-btn">
-                    View Projects
-                    <i class="fa-solid fa-arrow-right"></i>
-                </a>
-
-                <a href="#contact" class="btn secondary-btn">
-                    Contact Me
-                </a>
-
-            </div>
-
-            <div class="social-icons">
-
-                <a href="https://github.com/suchig9434" target="_blank">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-
-                <a href="#" target="_blank">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                </a>
-
-                <a href="#" target="_blank">
-                    <i class="fa-brands fa-x-twitter"></i>
-                </a>
-
-                <a href="mailto:yourmail@gmail.com">
-                    <i class="fa-solid fa-envelope"></i>
-                </a>
-
-            </div>
-
-        </div>
+            <div class="about-grid">
 
 
-        <div class="hero-image-container">
+                <div class="about-image">
 
-            <div class="image-glow"></div>
+                    <img
+                        src="aboutImage-CJZP63m4.png"
+                        alt="Suchi Goel">
 
-            <div class="hero-image">
-                <img src="suchi.jpeg" alt="Suchi Goel">
-            </div>
-
-            <div class="floating-card card-one">
-                <i class="fa-solid fa-code"></i>
-                <div>
-                    <strong>100+</strong>
-                    <small>DSA Problems</small>
-                </div>
-            </div>
-
-            <div class="floating-card card-two">
-                <i class="fa-solid fa-laptop-code"></i>
-                <div>
-                    <strong>Projects</strong>
-                    <small>Web + AI</small>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= ABOUT ================= -->
-
-<section class="section about-section" id="about">
-
-    <div class="section-container">
-
-        <div class="section-heading">
-            <p>GET TO KNOW ME</p>
-            <h2>About <span>Me</span></h2>
-        </div>
-
-
-        <div class="about-card">
-
-            <div class="about-image">
-
-                <div class="circle-image">
-                    <img src="aboutImage-CJZP63m4.png" alt="Suchi Goel">
-                </div>
-
-            </div>
-
-
-            <div class="about-content">
-
-                <div class="about-title">
-                    <div class="about-icon">
-                        <i class="fa-solid fa-code"></i>
-                    </div>
-
-                    <div>
-                        <h3>Multi-Domain Developer</h3>
-                        <p>
-                            I love turning ideas into interactive,
-                            useful and scalable digital experiences.
-                        </p>
-                    </div>
                 </div>
 
 
-                <div class="about-title">
-                    <div class="about-icon">
-                        <i class="fa-solid fa-brain"></i>
+
+                <div class="about-content">
+
+
+                    <div class="about-item">
+
+                        <div class="about-icon">
+
+                            <i class="fa-solid fa-graduation-cap"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Education
+                            </h3>
+
+                            <p>
+                            </p>
+
+                        </div>
+
                     </div>
 
-                    <div>
-                        <h3>AI & ML Enthusiast</h3>
-                        <p>
-                            Exploring Machine Learning and AI to create
-                            intelligent solutions for real-world problems.
-                        </p>
-                    </div>
-                </div>
 
 
-                <div class="about-title">
-                    <div class="about-icon">
-                        <i class="fa-solid fa-rocket"></i>
-                    </div>
+                    <div class="about-item">
 
-                    <div>
-                        <h3>Problem Solver</h3>
-                        <p>
-                            I enjoy solving DSA problems and continuously
-                            improving my coding and problem-solving skills.
-                        </p>
-                    </div>
-                </div>
+                        <div class="about-icon">
 
+                            <i class="fa-solid fa-laptop-code"></i>
 
-                <div class="about-stats">
+                        </div>
 
-                    <div class="stat">
-                        <h3>100+</h3>
-                        <p>DSA Problems</p>
+                        <div>
+
+                            <h3>
+                                Development
+                            </h3>
+
+                            <p>
+                                Interested in software development,
+                                full-stack development and building
+                                practical web applications.
+                            </p>
+
+                        </div>
+
                     </div>
 
-                    <div class="stat">
-                        <h3>10+</h3>
-                        <p>Projects</p>
-                    </div>
 
-                    <div class="stat">
-                        <h3>3+</h3>
-                        <p>Hackathons</p>
+
+                    <div class="about-item">
+
+                        <div class="about-icon">
+
+                            <i class="fa-solid fa-robot"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                AI & Data
+                            </h3>
+
+                            <p>
+                                Exploring Artificial Intelligence,
+                                Machine Learning and Data Analytics
+                                to create intelligent solutions.
+                            </p>
+
+                        </div>
+
                     </div>
 
                 </div>
@@ -238,907 +350,1081 @@
 
         </div>
 
-    </div>
-
-</section>
+    </section>
 
 
-<!-- ================= SKILLS ================= -->
 
-<section class="section skills-section" id="skills">
+    <!-- =====================================================
+         SKILLS
+    ====================================================== -->
 
-    <div class="section-container">
-
-        <div class="section-heading">
-            <p>MY EXPERTISE</p>
-            <h2>Technical <span>Skills</span></h2>
-        </div>
-
+    <section id="skills">
 
         <div class="skills-wrapper">
 
-            <!-- Languages -->
+            <h2 class="section-title reveal">
+                Development <span>Skills</span>
+            </h2>
 
-            <div class="skill-category">
 
-                <h3>
+            <p class="section-subtitle reveal">
+                Technologies and programming languages I work with.
+            </p>
+
+
+            <div class="skills-grid">
+
+
+                <div class="skill-item skill">
+                    <i class="fa-solid fa-c"></i>
+                    <span>C</span>
+                </div>
+
+
+                <div class="skill-item skill">
                     <i class="fa-solid fa-code"></i>
-                    Languages
-                </h3>
-
-                <div class="skills-grid">
-
-                    <div class="skill">
-                        <i class="devicon-c-plain colored"></i>
-                        <span>C</span>
-                    </div>
-
-                    <div class="skill">
-                        <i class="devicon-cplusplus-plain colored"></i>
-                        <span>C++</span>
-                    </div>
-
-                    <div class="skill">
-                        <i class="devicon-java-plain colored"></i>
-                        <span>Java</span>
-                    </div>
-
-                    <div class="skill">
-                        <i class="devicon-python-plain colored"></i>
-                        <span>Python</span>
-                    </div>
-
-                    <div class="skill">
-                        <i class="devicon-javascript-plain colored"></i>
-                        <span>JavaScript</span>
-                    </div>
-
-                    <div class="skill">
-                        <i class="devicon-html5-plain colored"></i>
-                        <span>HTML</span>
-                    </div>
-
-                    <div class="skill">
-                        <i class="devicon-css3-plain colored"></i>
-                        <span>CSS</span>
-                    </div>
-
-                    <div class="skill">
-                        <i class="devicon-sqlite-plain colored"></i>
-                        <span>SQL</span>
-                    </div>
-
+                    <span>C++</span>
                 </div>
 
-            </div>
 
-
-            <!-- Development -->
-
-            <div class="skill-category">
-
-                <h3>
-                    <i class="fa-solid fa-layer-group"></i>
-                    Development
-                </h3>
-
-                <div class="skills-grid">
-
-                    <div class="skill">
-                        <i class="devicon-react-original colored"></i>
-                        <span>React.js</span>
-                    </div>
-
-                    <div class="skill">
-                        <i class="devicon-nodejs-plain colored"></i>
-                        <span>Node.js</span>
-                    </div>
-
-                    <div class="skill">
-                        <i class="devicon-express-original"></i>
-                        <span>Express.js</span>
-                    </div>
-
-                    <div class="skill">
-                        <i class="devicon-tailwindcss-original colored"></i>
-                        <span>Tailwind</span>
-                    </div>
-
-                    <div class="skill">
-                        <i class="devicon-bootstrap-plain colored"></i>
-                        <span>Bootstrap</span>
-                    </div>
-
-                    <div class="skill">
-                        <i class="devicon-mongodb-plain colored"></i>
-                        <span>MongoDB</span>
-                    </div>
-
-                    <div class="skill">
-                        <i class="devicon-firebase-plain colored"></i>
-                        <span>Firebase</span>
-                    </div>
-
-                    <div class="skill">
-                        <i class="devicon-flask-original colored"></i>
-                        <span>Flask</span>
-                    </div>
-
+                <div class="skill-item skill">
+                    <i class="fa-brands fa-java"></i>
+                    <span>Java</span>
                 </div>
 
-            </div>
 
-
-            <!-- Tools -->
-
-            <div class="skill-category">
-
-                <h3>
-                    <i class="fa-solid fa-screwdriver-wrench"></i>
-                    Development Tools
-                </h3>
-
-                <div class="skills-grid">
-
-                    <div class="skill">
-                        <i class="devicon-git-plain colored"></i>
-                        <span>Git</span>
-                    </div>
-
-                    <div class="skill">
-                        <i class="devicon-github-original"></i>
-                        <span>GitHub</span>
-                    </div>
-
-                    <div class="skill">
-                        <i class="devicon-vscode-plain colored"></i>
-                        <span>VS Code</span>
-                    </div>
-
-                    <div class="skill">
-                        <i class="devicon-googlecloud-plain colored"></i>
-                        <span>Google Cloud</span>
-                    </div>
-
-                    <div class="skill">
-                        <i class="devicon-vercel-original"></i>
-                        <span>Vercel</span>
-                    </div>
-
-                    <div class="skill">
-                        <i class="devicon-docker-plain colored"></i>
-                        <span>Docker</span>
-                    </div>
-
-                    <div class="skill">
-                        <i class="fa-solid fa-database"></i>
-                        <span>DBMS</span>
-                    </div>
-
-                    <div class="skill">
-                        <i class="fa-solid fa-robot"></i>
-                        <span>AI Tools</span>
-                    </div>
-
+                <div class="skill-item skill">
+                    <i class="fa-brands fa-python"></i>
+                    <span>Python</span>
                 </div>
 
-            </div>
 
-
-            <!-- Core Skills -->
-
-            <div class="skill-category">
-
-                <h3>
-                    <i class="fa-solid fa-brain"></i>
-                    Core Skills
-                </h3>
-
-                <div class="skill-tags">
-
-                    <span>DSA</span>
-                    <span>OOP</span>
-                    <span>DBMS</span>
-                    <span>Machine Learning</span>
-                    <span>REST APIs</span>
-                    <span>Problem Solving</span>
-                    <span>Data Analytics</span>
-                    <span>Git & GitHub</span>
-
+                <div class="skill-item skill">
+                    <i class="fa-solid fa-database"></i>
+                    <span>SQL</span>
                 </div>
 
-            </div>
 
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= EXPERIENCE ================= -->
-
-<section class="section experience-section" id="experience">
-
-    <div class="section-container">
-
-        <div class="section-heading">
-            <p>MY JOURNEY</p>
-            <h2>Experience & <span>Learning</span></h2>
-        </div>
-
-
-        <div class="timeline">
-
-            <div class="timeline-item">
-
-                <div class="timeline-dot">
-                    <i class="fa-solid fa-briefcase"></i>
+                <div class="skill-item skill">
+                    <i class="fa-brands fa-html5"></i>
+                    <span>HTML</span>
                 </div>
 
-                <div class="timeline-content">
 
-                    <span class="timeline-date">
-                        2025
-                    </span>
-
-                    <h3>Technology Summer Intern</h3>
-
-                    <h4>Coding Blocks</h4>
-
-                    <p>
-                        Worked on a Machine Learning project focused on
-                        rainfall prediction. Applied Python, Pandas,
-                        NumPy and Scikit-learn to build and evaluate
-                        predictive models.
-                    </p>
-
-                    <div class="timeline-tags">
-                        <span>Python</span>
-                        <span>Machine Learning</span>
-                        <span>Scikit-learn</span>
-                        <span>Pandas</span>
-                    </div>
-
+                <div class="skill-item skill">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <span>CSS</span>
                 </div>
 
-            </div>
 
-
-            <div class="timeline-item">
-
-                <div class="timeline-dot">
-                    <i class="fa-solid fa-code"></i>
+                <div class="skill-item skill">
+                    <i class="fa-brands fa-js"></i>
+                    <span>JavaScript</span>
                 </div>
 
-                <div class="timeline-content">
 
-                    <span class="timeline-date">
-                        2025 - Present
-                    </span>
-
-                    <h3>Open Source Contributor</h3>
-
-                    <h4>GSSOC</h4>
-
-                    <p>
-                        Contributed to open-source projects, improved
-                        development skills and collaborated with developers
-                        through Git and GitHub.
-                    </p>
-
-                    <div class="timeline-tags">
-                        <span>GitHub</span>
-                        <span>Open Source</span>
-                        <span>React</span>
-                    </div>
-
+                <div class="skill-item skill">
+                    <i class="fa-brands fa-react"></i>
+                    <span>React.js</span>
                 </div>
 
-            </div>
 
-
-            <div class="timeline-item">
-
-                <div class="timeline-dot">
-                    <i class="fa-solid fa-graduation-cap"></i>
+                <div class="skill-item skill">
+                    <i class="fa-brands fa-node-js"></i>
+                    <span>Node.js</span>
                 </div>
 
-                <div class="timeline-content">
 
-                    <span class="timeline-date">
-                        Present
-                    </span>
-
-                    <h3>B.Tech Computer Science & Engineering</h3>
-
-                    <h4>Kanpur Institute of Technology</h4>
-
-                    <p>
-                        Building strong foundations in Data Structures,
-                        Algorithms, DBMS, Web Technology, Machine Learning
-                        and Software Development.
-                    </p>
-
+                <div class="skill-item skill">
+                    <i class="fa-solid fa-server"></i>
+                    <span>Express.js</span>
                 </div>
 
-            </div>
 
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= PROJECTS ================= -->
-
-<section class="section projects-section" id="projects">
-
-    <div class="section-container">
-
-        <div class="section-heading">
-            <p>MY WORK</p>
-            <h2>Featured <span>Projects</span></h2>
-        </div>
-
-
-        <div class="projects-grid">
-
-
-            <!-- Project 1 -->
-
-            <div class="project-card">
-
-                <div class="project-image project-one">
-                    <i class="fa-solid fa-cloud-sun"></i>
-                </div>
-
-                <div class="project-content">
-
-                    <span class="project-category">
-                        Machine Learning
-                    </span>
-
-                    <h3>Rainfall Prediction</h3>
-
-                    <p>
-                        A machine learning model that predicts rainfall
-                        using weather parameters and Random Forest
-                        classification.
-                    </p>
-
-                    <div class="project-tech">
-                        <span>Python</span>
-                        <span>Pandas</span>
-                        <span>Scikit-learn</span>
-                        <span>ML</span>
-                    </div>
-
-                    <div class="project-links">
-
-                        <a href="https://github.com/suchig9434/Rainfall-Prediction-using-Machine-Learning"
-                           target="_blank">
-                            GitHub
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- Project 2 -->
-
-            <div class="project-card">
-
-                <div class="project-image project-two">
-                    <i class="fa-solid fa-person-dress"></i>
-                </div>
-
-                <div class="project-content">
-
-                    <span class="project-category">
-                        Web Development
-                    </span>
-
-                    <h3>Udaan</h3>
-
-                    <p>
-                        A women empowerment platform designed to provide
-                        useful resources, opportunities and digital support.
-                    </p>
-
-                    <div class="project-tech">
-                        <span>React</span>
-                        <span>Tailwind</span>
-                        <span>JavaScript</span>
-                    </div>
-
-                    <div class="project-links">
-
-                        <a href="#" target="_blank">
-                            Live Demo
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </a>
-
-                        <a href="#" target="_blank">
-                            GitHub
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- Project 3 -->
-
-            <div class="project-card">
-
-                <div class="project-image project-three">
+                <div class="skill-item skill">
                     <i class="fa-solid fa-leaf"></i>
+                    <span>MongoDB</span>
                 </div>
 
-                <div class="project-content">
 
-                    <span class="project-category">
-                        Full Stack
+                <div class="skill-item skill">
+                    <i class="fa-solid fa-wind"></i>
+                    <span>Tailwind</span>
+                </div>
+
+
+                <div class="skill-item skill">
+                    <i class="fa-brands fa-git-alt"></i>
+                    <span>Git</span>
+                </div>
+
+
+                <div class="skill-item skill">
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub</span>
+                </div>
+
+
+            </div>
+
+
+
+            <!-- DEVELOPMENT TOOLS -->
+
+            <div class="tools-section">
+
+                <h2 class="skills-title reveal">
+                    Development <span>Tools</span>
+                </h2>
+
+
+                <div class="tools-grid">
+
+
+                    <div class="tool-item tool">
+
+                        <i class="fa-solid fa-code"></i>
+
+                        <span>
+                            VS Code
+                        </span>
+
+                    </div>
+
+
+                    <div class="tool-item tool">
+
+                        <i class="fa-brands fa-github"></i>
+
+                        <span>
+                            GitHub
+                        </span>
+
+                    </div>
+
+
+                    <div class="tool-item tool">
+
+                        <i class="fa-solid fa-database"></i>
+
+                        <span>
+                            MySQL
+                        </span>
+
+                    </div>
+
+
+                    <div class="tool-item tool">
+
+                        <i class="fa-brands fa-docker"></i>
+
+                        <span>
+                            Docker
+                        </span>
+
+                    </div>
+
+
+                    <div class="tool-item tool">
+
+                        <i class="fa-solid fa-flask"></i>
+
+                        <span>
+                            Flask
+                        </span>
+
+                    </div>
+
+
+                    <div class="tool-item tool">
+
+                        <i class="fa-solid fa-chart-column"></i>
+
+                        <span>
+                            Pandas
+                        </span>
+
+                    </div>
+
+
+                    <div class="tool-item tool">
+
+                        <i class="fa-solid fa-brain"></i>
+
+                        <span>
+                            Scikit-learn
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         EXPERIENCE
+    ====================================================== -->
+
+    <section id="experience">
+
+        <div class="experience-container">
+
+            <h2 class="section-title reveal">
+                Experience
+            </h2>
+
+
+            <!-- AICTE -->
+
+            <article class="experience-card reveal">
+
+                <div>
+
+                    <div class="company-logo">
+                        <i class="fa-solid fa-building-columns"></i>
+                    </div>
+
+                </div>
+
+
+                <div class="experience-content">
+
+                    <h3>
+                        AICTE Internship
+                    </h3>
+
+                    <div class="experience-date">
+                        Data Analyst Intern • 2026
+                    </div>
+
+
+                    <ul>
+
+                        <li>
+                            Worked on data analysis and
+                            data-driven problem solving.
+                        </li>
+
+                        <li>
+                            Applied analytical techniques
+                            to extract meaningful insights.
+                        </li>
+
+                        <li>
+                            Worked with data processing
+                            and visualization concepts.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- CODING BLOCKS -->
+
+            <article class="experience-card reveal">
+
+                <div>
+
+                    <div class="company-logo">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+
+                </div>
+
+
+                <div class="experience-content">
+
+                    <h3>
+                        Coding Blocks Technology
+                    </h3>
+
+                    <div class="experience-date">
+                        AIML Intern • 2026
+                    </div>
+
+
+                    <ul>
+
+                        <li>
+                            Worked on Artificial Intelligence
+                            and Machine Learning concepts.
+                        </li>
+
+                        <li>
+                            Developed a Rainfall Prediction
+                            Machine Learning project.
+                        </li>
+
+                        <li>
+                            Used Python, Pandas, NumPy
+                            and Scikit-learn.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- GSSOC -->
+
+            <article class="experience-card reveal">
+
+                <div>
+
+                    <div class="company-logo">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+
+                </div>
+
+
+                <div class="experience-content">
+
+                    <h3>
+                        GSSOC
+                    </h3>
+
+                    <div class="experience-date">
+                        Project Contributor • 2026
+                    </div>
+
+
+                    <ul>
+
+                        <li>
+                            Contributed to open-source
+                            development projects.
+                        </li>
+
+                        <li>
+                            Collaborated with developers
+                            through GitHub.
+                        </li>
+
+                        <li>
+                            Improved practical development
+                            and teamwork skills.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         PROJECTS
+    ====================================================== -->
+
+    <section id="projects">
+
+        <div class="projects-container">
+
+            <h2 class="section-title reveal">
+                Featured <span>Projects</span>
+            </h2>
+
+
+
+            <!-- PROJECT 1 -->
+
+            <article class="project-card reveal">
+
+                <h3>
+                    Rainfall Prediction using Machine Learning
+                </h3>
+
+
+                <ul>
+
+                    <li>
+                        Machine Learning based rainfall
+                        prediction system.
+                    </li>
+
+                    <li>
+                        Implemented Random Forest
+                        classification.
+                    </li>
+
+                    <li>
+                        Used GridSearchCV for model
+                        optimization.
+                    </li>
+
+                    <li>
+                        Performed data processing and
+                        visualization using Python.
+                    </li>
+
+                </ul>
+
+
+                <div class="tech-stack">
+
+                    <span class="tech">Python</span>
+                    <span class="tech">Pandas</span>
+                    <span class="tech">NumPy</span>
+                    <span class="tech">Scikit-learn</span>
+                    <span class="tech">Random Forest</span>
+                    <span class="tech">Matplotlib</span>
+
+                </div>
+
+
+                <div class="project-actions">
+
+                    <span>
+                        Machine Learning Project
                     </span>
 
-                    <h3>GreenQuest</h3>
 
-                    <p>
-                        A gamified environmental education platform that
-                        encourages users to learn and participate in
-                        eco-friendly activities.
-                    </p>
+                    <a
+                        href="https://github.com/suchig9434/Rainfall-Prediction-using-Machine-Learning"
+                        target="_blank"
+                        class="btn">
 
-                    <div class="project-tech">
-                        <span>React</span>
-                        <span>Node.js</span>
-                        <span>MongoDB</span>
-                    </div>
+                        <i class="fa-brands fa-github"></i>
 
-                    <div class="project-links">
+                        GitHub
 
-                        <a href="#" target="_blank">
-                            Live Demo
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </a>
-
-                        <a href="#" target="_blank">
-                            GitHub
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-
-                    </div>
+                    </a>
 
                 </div>
 
-            </div>
+            </article>
 
 
-            <!-- Project 4 -->
 
-            <div class="project-card">
+            <!-- PROJECT 2 -->
 
-                <div class="project-image project-four">
-                    <i class="fa-solid fa-file-lines"></i>
+            <article class="project-card reveal">
+
+                <h3>
+                    Sahay Score 
+                </h3>
+
+
+                <ul>
+
+                    <li>
+                        SahayScore — AI Credit Scoring for Inclusive Lending
+An AI-powered credit scoring platform designed to help assess borrower creditworthiness using data-driven machine learning techniques.
+                    </li>
+
+                    <li>
+                        Designed a responsive and
+                        user-friendly interface.
+                    </li>
+
+                </ul>
+
+
+                <div class="tech-stack">
+
+                    <span class="tech">React.js</span>
+                    <span class="tech">Tailwind CSS</span>
+                    <span class="tech">JavaScript</span>
+                    <span class="tech">Python</span>
+                    <span class="tech">MongoDB</span>
+
                 </div>
+                 <div class="project-actions">
 
-                <div class="project-content">
-
-                    <span class="project-category">
-                        AI
+                    <span>
+                          Frontend  Project
                     </span>
 
-                    <h3>PrepWise AI</h3>
 
-                    <p>
-                        An AI-powered interview preparation assistant
-                        designed to help students practice technical and
-                        HR interview questions.
-                    </p>
+                    <a
+                        href="https://ai-credit-scoring-system.vercel.app/"
+                        target="_blank"
+                        class="btn">
 
-                    <div class="project-tech">
-                        <span>AI</span>
-                        <span>React</span>
-                        <span>API</span>
+                        <i class="fa-brands fa-github"></i>
+
+                        GitHub
+
+                    </a>
+
+                </div>
+
+
+
+            </article>
+
+
+
+
+            <!-- PROJECT 3 -->
+
+            <article class="project-card reveal">
+
+                <h3>
+                    Frotend project 
+                </h3>
+
+
+                <ul>
+
+                    <li>
+                        Kalyan Jewellers Clone
+                    </li>
+
+                    <li>
+                        Designed interactive learning
+                        experiences.
+                    </li>
+
+                </ul>
+
+
+                <div class="tech-stack">
+
+                    <span class="tech">React</span>
+                    <span class="tech">Node.js</span>
+                    <span class="tech">HTML</span>
+                    <span class="tech">CSS</span>
+                    <span class="tech">JavaScript</span>
+
+                </div>
+                <div class="project-actions">
+
+                    <span>
+                          Frontend  Project
+                    </span>
+
+
+                    <a
+                        href="https://github.com/suchig9434/Kalyan-Jewellers-Clone"
+                        target="_blank"
+                        class="btn">
+
+                        <i class="fa-brands fa-github"></i>
+
+                        GitHub
+
+                    </a>
+
+                </div> 
+
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CERTIFICATIONS
+    ====================================================== -->
+
+    <section id="certifications">
+
+        <div class="cert-container">
+
+            <h2 class="cert-heading reveal">
+                Certifications
+            </h2>
+
+
+            <div class="cert-grid">
+
+
+                <article class="certificate-card cert-card reveal">
+
+                    <img
+                        src="assets/certificate-1.jpg"
+                        class="cert-image"
+                        alt="Certificate">
+
+                    <div class="cert-content">
+
+                        <h3>
+                            AI / ML Certification
+                        </h3>
+
+                        <p>
+                            Machine Learning & AI
+                        </p>
+
+                        <div class="cert-tags">
+
+                            <span class="cert-tag">
+                                AI
+                            </span>
+
+                            <span class="cert-tag">
+                                ML
+                            </span>
+
+                        </div>
+
                     </div>
 
-                    <div class="project-links">
+                </article>
 
-                        <a href="#" target="_blank">
-                            Live Demo
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </a>
 
-                        <a href="#" target="_blank">
-                            GitHub
-                            <i class="fa-brands fa-github"></i>
-                        </a>
+
+                <article class="certificate-card cert-card reveal">
+
+                    <img
+                        src="assets/certificate-2.jpg"
+                        class="cert-image"
+                        alt="Certificate">
+
+                    <div class="cert-content">
+
+                        <h3>
+                            Programming Certification
+                        </h3>
+
+                        <p>
+                            Programming & Development
+                        </p>
+
+                        <div class="cert-tags">
+
+                            <span class="cert-tag">
+                                Coding
+                            </span>
+
+                            <span class="cert-tag">
+                                Development
+                            </span>
+
+                        </div>
 
                     </div>
 
-                </div>
+                </article>
+
+
+
+                <article class="certificate-card cert-card reveal">
+
+                    <img
+                        src="assets/certificate-3.jpg"
+                        class="cert-image"
+                        alt="Certificate">
+
+                    <div class="cert-content">
+
+                        <h3>
+                            Data Analytics
+                        </h3>
+
+                        <p>
+                            Data Analysis & Visualization
+                        </p>
+
+                        <div class="cert-tags">
+
+                            <span class="cert-tag">
+                                Data
+                            </span>
+
+                            <span class="cert-tag">
+                                Analytics
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <article class="certificate-card cert-card reveal">
+
+                    <img
+                        src="assets/certificate-4.jpg"
+                        class="cert-image"
+                        alt="Certificate">
+
+                    <div class="cert-content">
+
+                        <h3>
+                            Developer Certification
+                        </h3>
+
+                        <p>
+                            Web Development
+                        </p>
+
+                        <div class="cert-tags">
+
+                            <span class="cert-tag">
+                                Web
+                            </span>
+
+                            <span class="cert-tag">
+                                Development
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
 
             </div>
-
 
         </div>
 
-    </div>
-
-</section>
+    </section>
 
 
-<!-- ================= ACHIEVEMENTS ================= -->
 
-<section class="section achievements-section" id="achievements">
+    <!-- =====================================================
+         ACHIEVEMENTS
+    ====================================================== -->
 
-    <div class="section-container">
+    <section id="achievements">
 
-        <div class="section-heading">
-            <p>MY MILESTONES</p>
-            <h2>Achievements & <span>Certifications</span></h2>
-        </div>
+        <div class="achievement-heading reveal">
 
+            <h2>
+                Achievements
+            </h2>
 
-        <div class="achievement-grid">
-
-
-            <div class="achievement-card">
-
-                <div class="achievement-icon">
-                    <i class="fa-solid fa-medal"></i>
-                </div>
-
-                <h3>Academic Excellence</h3>
-
-                <p>
-                    Strong academic performance with continuous focus
-                    on Computer Science fundamentals.
-                </p>
-
-            </div>
-
-
-            <div class="achievement-card">
-
-                <div class="achievement-icon">
-                    <i class="fa-solid fa-code"></i>
-                </div>
-
-                <h3>DSA Practice</h3>
-
-                <p>
-                    Consistently solving problems on competitive coding
-                    and interview preparation platforms.
-                </p>
-
-            </div>
-
-
-            <div class="achievement-card">
-
-                <div class="achievement-icon">
-                    <i class="fa-solid fa-users"></i>
-                </div>
-
-                <h3>Open Source</h3>
-
-                <p>
-                    Participated in open-source initiatives and
-                    collaborative development.
-                </p>
-
-            </div>
-
-
-            <div class="achievement-card">
-
-                <div class="achievement-icon">
-                    <i class="fa-solid fa-trophy"></i>
-                </div>
-
-                <h3>Competitions</h3>
-
-                <p>
-                    Participated in coding competitions, hackathons
-                    and technology-focused events.
-                </p>
-
-            </div>
-
+            <p>
+                Milestones and accomplishments
+            </p>
 
         </div>
 
-    </div>
 
-</section>
-
-
-<!-- ================= BLOGS ================= -->
-
-<section class="section blogs-section" id="blogs">
-
-    <div class="section-container">
-
-        <div class="section-heading">
-            <p>THOUGHTS & LEARNING</p>
-            <h2>Latest <span>Blogs</span></h2>
-        </div>
+        <div class="achievement-slider">
 
 
-        <div class="blogs-grid">
+            <article class="achievement-card active">
 
-
-            <article class="blog-card">
-
-                <div class="blog-number">
-                    01
+                <div class="achievement-icon">
+                    🏆
                 </div>
 
-                <div class="blog-content">
+                <h3>
+                    APJ Abdul Kalam
+                    General Knowledge Exam
+                </h3>
 
-                    <span>DSA</span>
-
-                    <h3>
-                        My Approach to Consistent DSA Practice
-                    </h3>
-
-                    <p>
-                        How consistency, patterns and problem-solving
-                        strategies can make DSA preparation easier.
-                    </p>
-
-                    <a href="#">
-                        Read More
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-
-                </div>
+                <p>
+                    Secured Rank 1
+                </p>
 
             </article>
 
 
-            <article class="blog-card">
 
-                <div class="blog-number">
-                    02
+            <article class="achievement-card">
+
+                <div class="achievement-icon">
+                    🥇
                 </div>
 
-                <div class="blog-content">
+                <h3>
+                    Academic Achievement
+                </h3>
 
-                    <span>Machine Learning</span>
-
-                    <h3>
-                        Getting Started with Machine Learning
-                    </h3>
-
-                    <p>
-                        A beginner-friendly overview of datasets,
-                        preprocessing, model training and evaluation.
-                    </p>
-
-                    <a href="#">
-                        Read More
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-
-                </div>
+                <p>
+                    Strong academic performance
+                    in Computer Science.
+                </p>
 
             </article>
 
 
-            <article class="blog-card">
 
-                <div class="blog-number">
-                    03
+            <article class="achievement-card">
+
+                <div class="achievement-icon">
+                    💻
                 </div>
 
-                <div class="blog-content">
+                <h3>
+                    Open Source
+                </h3>
 
-                    <span>Career</span>
+                <p>
+                    Contributed to open-source
+                    development through GSSOC.
+                </p>
 
-                    <h3>
-                        Building a Developer Portfolio
-                    </h3>
+            </article>
 
-                    <p>
-                        Important things students should include when
-                        creating their first professional portfolio.
-                    </p>
 
-                    <a href="#">
-                        Read More
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
 
+            <article class="achievement-card">
+
+                <div class="achievement-icon">
+                    🚀
                 </div>
+
+                <h3>
+                    Technology Projects
+                </h3>
+
+                <p>
+                    Built projects using
+                    modern development technologies.
+                </p>
 
             </article>
 
 
         </div>
 
-    </div>
 
-</section>
+        <div class="slider-controls">
 
+            <span class="slider-dot active"></span>
+            <span class="slider-dot"></span>
+            <span class="slider-dot"></span>
+            <span class="slider-dot"></span>
 
-<!-- ================= CONTACT ================= -->
-
-<section class="section contact-section" id="contact">
-
-    <div class="section-container">
-
-        <div class="section-heading">
-            <p>LET'S CONNECT</p>
-            <h2>Get In <span>Touch</span></h2>
         </div>
 
+    </section>
+
+
+
+    <!-- =====================================================
+         CONTACT
+    ====================================================== -->
+
+    <section id="contact">
 
         <div class="contact-wrapper">
 
 
-            <div class="contact-info">
+            <div class="contact-left reveal">
 
-                <h3>
-                    Let's build something
-                    <span>amazing</span> together.
-                </h3>
+                <h2>
+                    Let's
+                    <span>Connect.</span>
+                </h2>
 
                 <p>
-                    I'm always interested in new opportunities,
-                    collaborations, internships and exciting projects.
+                    Have an opportunity, idea or project
+                    in mind? Let's build something meaningful
+                    together.
                 </p>
 
+            </div>
 
-                <div class="contact-item">
 
-                    <div class="contact-icon">
-                        <i class="fa-solid fa-envelope"></i>
+
+            <div class="contact-links reveal">
+
+
+                <!-- EMAIL -->
+
+                <a
+                    href="mailto:your-email@gmail.com"
+                    class="contact-link"
+                    data-email="your-email@gmail.com">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <span>
+                        goelsuchi32@gmail.com
+                    </span>
+
+                </a>
+
+
+
+                <!-- LINKEDIN -->
+
+                <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    class="contact-link">
+
+                    <i class="fa-brands fa-linkedin-in"></i>
+
+                    <span>
+                        LinkedIn
+                    </span>
+
+                </a>
+
+
+
+                <!-- GITHUB -->
+
+                <a
+                    href="https://github.com/suchig9434"
+                    target="_blank"
+                    class="contact-link">
+
+                    <i class="fa-brands fa-github"></i>
+
+                    <span>
+                        github.com/suchig9434
+                    </span>
+
+                </a>
+
+
+
+                <!-- LEETCODE -->
+
+                <a
+                    href="https://leetcode.com/"
+                    target="_blank"
+                    class="contact-link">
+
+                    <i class="fa-solid fa-code"></i>
+
+                    <span>
+                        LeetCode
+                    </span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             FOOTER
+        ================================================== -->
+
+        <footer class="footer">
+
+            <div class="footer-container">
+
+
+                <div class="footer-top">
+
+
+                    <div class="footer-logo">
+
+                        Suchi<span>.</span>
+
                     </div>
 
-                    <div>
-                        <small>Email</small>
-                        <a href="goelsuchi32@gmail.com">
-                            goelsuchi32@gmail.com
+
+                    <div class="social-links">
+
+
+                        <a
+                            href="https://github.com/suchig9434"
+                            target="_blank"
+                            aria-label="GitHub">
+
+                            <i class="fa-brands fa-github"></i>
+
                         </a>
+
+
+                        <a
+                            href="https://www.linkedin.com/"
+                            target="_blank"
+                            aria-label="LinkedIn">
+
+                            <i class="fa-brands fa-linkedin-in"></i>
+
+                        </a>
+
+
+                        <a
+                            href="https://leetcode.com/"
+                            target="_blank"
+                            aria-label="LeetCode">
+
+                            <i class="fa-solid fa-code"></i>
+
+                        </a>
+
+
+                        <a
+                            href="mailto:your-email@gmail.com"
+                            aria-label="Email">
+
+                            <i class="fa-solid fa-envelope"></i>
+
+                        </a>
+
+
                     </div>
 
                 </div>
 
 
-                <div class="contact-item">
 
-                    <div class="contact-icon">
-                        <i class="fa-brands fa-github"></i>
-                    </div>
+                <div class="footer-bottom">
 
-                    <div>
-                        <small>GitHub</small>
-                        <a href="https://github.com/suchig9434"
-                           target="_blank">
-                            github.com/suchig9434
-                        </a>
-                    </div>
+                    <p>
+                        © <span id="current-year"></span>
+                        Suchi Goel. All Rights Reserved.
+                    </p>
 
-                </div>
-
-
-                <div class="contact-item">
-
-                    <div class="contact-icon">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </div>
-
-                    <div>
-                        <small>LinkedIn</small>
-                        <a href="#" target="_blank">
-                            Connect with me
-                        </a>
-                    </div>
+                    <p>
+                        Designed & Developed with
+                        <span style="color:#4db3ff;">
+                            ♥
+                        </span>
+                    </p>
 
                 </div>
 
             </div>
 
+        </footer>
 
-            <form class="contact-form" id="contactForm">
-
-                <div class="input-group">
-
-                    <input type="text"
-                           id="name"
-                           placeholder="Your Name"
-                           required>
-
-                    <input type="email"
-                           id="email"
-                           placeholder="Your Email"
-                           required>
-
-                </div>
-
-                <input type="text"
-                       id="subject"
-                       placeholder="Subject"
-                       required>
-
-                <textarea id="message"
-                          rows="7"
-                          placeholder="Your Message"
-                          required></textarea>
-
-                <button type="submit" class="btn primary-btn">
-                    Send Message
-                    <i class="fa-solid fa-paper-plane"></i>
-                </button>
-
-                <p class="form-message" id="formMessage"></p>
-
-            </form>
-
-        </div>
-
-    </div>
-
-</section>
+    </section>
 
 
-<!-- ================= FOOTER ================= -->
 
-<footer>
+    <!-- =====================================================
+         BACK TO TOP
+    ====================================================== -->
 
-    <div class="footer-container">
+    <button
+        class="back-to-top"
+        aria-label="Back to top">
 
-        <div class="footer-logo">
-            Suchi<span>.</span>
-        </div>
+        <i class="fa-solid fa-arrow-up"></i>
 
-        <p>
-            Designed & Developed by <strong>Suchi Goel</strong>
-        </p>
-
-        <div class="footer-social">
-
-            <a href="https://github.com/suchig9434" target="_blank">
-                <i class="fa-brands fa-github"></i>
-            </a>
-
-            <a href="#">
-                <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-
-            <a href="#">
-                <i class="fa-brands fa-x-twitter"></i>
-            </a>
-
-        </div>
-
-        <p class="copyright">
-        </p>
-
-    </div>
-
-</footer>
+    </button>
 
 
-<!-- Scroll Top -->
 
-<button id="scrollTop" class="scroll-top">
-    <i class="fa-solid fa-arrow-up"></i>
-</button>
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
 
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
